@@ -24,6 +24,5 @@ public class SelenideTests {
         $("#column-a").dragAndDropTo("#column-b");
         $("#column-a").shouldHave(text("B"));
         $("#column-b").shouldHave(text("A"));
-        sleep(5000);
     }
 }
